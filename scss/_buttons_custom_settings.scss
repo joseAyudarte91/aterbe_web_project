@@ -1,0 +1,51 @@
+// Custom buttons settings
+$button-bg-color: #DFC27D;
+
+.button.expand, .button.radius {
+  -webkit-border-radius: $global-radius;
+  border-radius: $global-radius;
+  background-color: $button-bg-color;
+  border-color: scale-color($button-bg-color, $lightness: $button-function-factor);
+  &:hover {
+    background-color: scale-color($button-bg-color, $lightness: $button-function-factor);
+  }
+}
+
+#zoomer_previous_bt_wrapper, #zoomer_zoom_in_bt_wrapper, #zoomer_zoom_out_bt_wrapper, #zoomer_next_bt_wrapper {
+  width: 25%;
+  padding-left: 0;
+  padding-right: 1em;
+  
+  & > a {
+    font-size: 1.6em;
+    line-height: 0.20em;
+  }
+}
+
+#zoomer_zoom_out_bt_wrapper {
+  padding-right: 0.3em;
+}
+
+#zoomer_next_bt_wrapper {
+  padding-left: 0.8em;
+  padding-right: 0;
+}
+
+.leftZoomerBtSmall {
+  padding-left: 0 !important;
+  padding-right: 0.8em !important;
+  width: 50% !important;
+  & > a {
+    line-height: 0.1em !important;
+  }
+
+}
+
+.rightZoomerBtSmall {
+  padding-right: 0 !important;
+  padding-left: 0.8em !important;
+  width: 50% !important;
+  & > a {
+    line-height: 0.1em !important;
+  }
+}

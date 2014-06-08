@@ -1,0 +1,24 @@
+//Settings for logo image as PNG or SVG file loaded dynamically via JS
+#logo_img {
+	position: absolute;
+	z-index: 1;
+	max-width: 100%;
+	max-height: 100%;
+	top: 9px;
+	left: 1em;
+}
+
+#logo_wrapper {
+	position: absolute;
+	width: 80px;
+	height: 30px;
+}
+
+.logo_adjust_big_scr_size {
+	left: 7.5em !important;
+}
+
+.title_before_logo_eu_en_lang_adj {
+	padding-left: 5.5em !important;
+}
+

@@ -1,0 +1,86 @@
+// Bold font weight
+.bold {
+  font-weight: bold;
+}
+
+// Customized h2 style for large screens
+.h2_big_size {
+  font-size: 32px; //fallback for old browsers with default 16px font-size
+  font-size: 2rem;
+  color: $secondary-color;
+}
+
+// Customized h2 style for small screens
+.h2_small_size {
+  font-size: 20.8px; //fallback for old browsers with default 16px font-size
+  font-size: 1.3rem;
+}
+
+// Customized h3 style for small screens
+.h3_small_size {
+  font-size: 18px; //fallback for old browsers with default 16px font-size
+  font-size: $h4-font-size;
+}
+
+// Customized h4 style for small screens
+.h4_small_size {
+  font-size: 16px; //fallback for old browsers with default 16px font-size
+  font-size: $h5-font-size;
+}
+
+.h2_real_small_size {
+	font-size: $h2-font-size - rem-calc(5);
+}
+
+.third_color {
+  color: $third-color !important;
+}
+
+// The header of the rooms section are kept with a dark color
+.gallery_header {
+  color: $body-font-color;
+}
+
+// Color style for top_section_header elements
+.top_section_header {
+  color: $secondary-color;
+}
+
+// Neutral gray color border for rooms section's hr elements
+.default_border {
+  border-color: #DDD;
+}
+
+// Color of the subsection header
+.section_header_color {
+  color: $secondary-color;
+}
+
+// Special text-style for LOPD notificaion
+small p.LOPD_notice {
+  font-size: 120%;
+}
+
+// Setting for checkbox labels within a form
+label.checkbox_label {
+  display: inline !important;
+}
+
+#gallery_img_title {
+  text-align: center;
+  margin: 0 !important;
+  color: $body-font-color;
+  font-size: 16px; //Fallback for old browsers
+  font-size: 1rem;
+}
+
+#gallery_img_author_wrapper {
+  display: block;
+  text-align: center;
+  font-size: 0.7em;
+  margin-bottom: 0.2em;
+}
+
+#copyrightHolder p {
+	font-size: 0.8em;
+}

@@ -1,0 +1,23 @@
+// This hack preserves the modal not to be overlapped by another div.
+#indexCarouselModal {
+  z-index: 200;
+}
+
+// This modal covers all the screen, so it needs no spaces from the top
+#rooms_and_gallery_modal {
+  top: 1px !important;
+  padding-top: 0.1em !important;
+}
+
+// This should remove any inherited text-decoration from reveal modals close buttons
+a.close-reveal-modal {
+  &:link, &:visited, &:hover, &:active {
+    text-decoration: none;
+  }
+}
+
+// This rule prevent the content of the zoomer from overflowing its wrapper
+#modal_img_placeholder {
+  overflow: hidden !important;
+  z-index: 200;
+}

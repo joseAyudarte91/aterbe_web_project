@@ -1,0 +1,10 @@
+// Custom settings for Orbit slider
+
+.touch .orbit-container {
+  .orbit-prev, .orbit-next{
+    display: block;
+  }
+  .orbit-timer, .orbit-slide-number{
+    display: none;
+  }
+}

@@ -1,0 +1,16 @@
+// A custom class to use with visibility purposes
+.custom_show {
+  display: block;
+}
+
+.custom_hide {
+  display: none;
+}
+
+.custom_show_overrider {
+  display: block !important;
+}
+
+.custom_hide_overrider {
+  display: none !important;
+}

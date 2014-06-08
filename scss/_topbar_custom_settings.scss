@@ -1,0 +1,55 @@
+// Divider customization to separate menu options from each other
+$topbar-divider-border-right: 1px solid transparent;
+
+.top-bar-section > ul > .divider {
+  border-right: $topbar-divider-border-right;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button){
+  padding: 0 0.937rem;
+}
+
+// This ensures that the height of the topbar links are the same as the topbar itself
+#topNavContent {
+  line-height: 45px;
+}
+
+// Custom settings for the additional expanded sub-menu list icon
+// This hack ensures browser compatibilty and it will center the icon
+#more-opts-icon{
+  text-indent: -16px; // fallback for older browsers
+  text-indent: -1rem; //changed to -1rem for firefox (it's the only one that understands that ok)
+  margin-right: 16px; // fallback for older browsers
+  margin-right: 1rem; //added margin for both chrome and ie
+  height: 45px; // The fixed height of the topbar is set to take just the exact space needed
+}
+
+#more-opts-icon span{
+  left: 14.72px;  // fallback for older browsers
+  left: 0.92rem;
+}
+
+// This rules positions a extra div just behind the topbar, occupying all the available width. In that way, we get the effect of having a 100% width centered topbar menu
+
+#topbar_bg_extended {
+  display: block;
+  z-index: -200;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  width: 100%;
+  height: 45px;
+  max-width: 100%;
+  background-image: url(../images/top-bar_menu_bg_img.jpg);
+  background-position: 0 0;
+  background-repeat: repeat-x;
+  background-size: auto 100%;
+}
+
+// Text-decoration for top-bar anchors
+li.name > h1 > a, a.topbarLink, li.toggle-topbar.menu-icon > a {
+  &:link, &:visited, &:hover, &:active {
+    text-decoration: none;
+  }
+}

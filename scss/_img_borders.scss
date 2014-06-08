@@ -1,0 +1,6 @@
+// Styling border of the images
+.rounded_bordered {
+  border: 1px solid #222 !important;
+  -webkit-border-radius: $global-radius;
+  border-radius: $global-radius;
+}

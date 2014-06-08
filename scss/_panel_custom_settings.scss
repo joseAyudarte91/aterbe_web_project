@@ -1,0 +1,49 @@
+// Panel link color
+$panel_header_color: #4d0606;
+
+// Add a gradient background to the panel classes and customize their inner links
+.panel {
+  background: #dfc27d; // Fallback for old browsers
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfc27d', endColorstr='#bf812d'); /* for IE */
+  background: -ms-linear-gradient(top, #dfc27d, #bf812d); /* for IE10+ */
+  background: -webkit-gradient(linear, left top, left bottom, from(#dfc27d), to(#bf812d)); /* for webkit browsers */
+  background: -moz-linear-gradient(top,  #dfc27d,  #bf812d); /* for firefox 3.6+ */
+  background: -o-linear-gradient(top, #dfc27d, #bf812d); /* for Opera 11.1 to 12 */
+  background: linear-gradient(top, #dfc27d, #bf812d); /* Standard syntax */  
+  -webkit-border-radius: $global-radius;
+  border-radius: $global-radius;
+
+  & > h3, & > h4, & > h4 > a, & > h5 > a {
+    color: $panel_header_color;
+    font-weight: bold;
+  }
+
+  & > h4 > a:visited, & > h5 > a:visited {
+    color: scale-color($panel_header_color, $lightness: 15%);
+  }
+
+  & > h4 > a:hover, & > h4 > a:active, & > h5 > a:hover, & > h5 > a:active {
+    color: scale-color($panel_header_color, $lightness: 15%);
+    text-decoration: underline;
+  }
+
+  & > p {
+    font-weight: bold;
+  }
+}
+
+// Styling of the side-nav list
+ul.side-nav > li:not(.divider) {
+  color: $normal-text-color;
+  font-weight: bold;
+}
+
+ // This class is used to makes paragraphs inside panels to be headers
+p.pHeader {
+  color: $panel_header_color;
+  font-size: 18px; // Fallback for old browsers
+  font-size: 1.125rem;
+  font-weight: bold;
+  margin-bottom: 6.4px; // Fallback for old browsers
+  margin-bottom: 0.4rem;
+}

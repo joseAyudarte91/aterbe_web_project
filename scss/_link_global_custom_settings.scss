@@ -1,0 +1,49 @@
+// These styles are applied to footer's anchors, depending on the current page
+$index_footer_link_color: $secondary-color;
+$rooms_footer_link_color: #2e6393;
+
+.index_footer_links, .index_text_link {
+  color: $index_footer_link_color;
+  font-size: 1.1em;
+}
+
+.index_text_link {
+  font-size: 1em;
+}
+
+.rooms_footer_links {
+  color: $rooms_footer_link_color;
+  font-size: 1.1em;
+}
+
+a.index_footer_links:visited, a.index_footer_links:visited, a.index_text_link:visited {
+  color: scale-color($index_footer_link_color, $lightness: 15%);
+}
+
+a.rooms_footer_links:visited, a.rooms_footer_links:visited {
+  color: scale-color($rooms_footer_link_color, $lightness: 15%);
+}
+
+a.index_footer_links:hover, a.index_text_link:hover, a.index_footer_links:active, a.index_text_link:hover {
+  color: scale-color($index_footer_link_color, $lightness: 30%);
+  text-decoration: underline;
+}
+
+a.rooms_footer_links:hover, a.rooms_footer_links:active {
+  color: #93b9dd;
+  text-decoration: underline;
+}
+
+a.section_header_color {
+  color: $secondary-color;
+}
+
+a.section_header_color:visited {
+  color: scale-color($secondary-color, $lightness: 15%);
+}
+  
+a.section_header_color:hover, a.section_header_color:active {
+  color: scale-color($secondary-color, $lightness: 30%);
+  text-decoration: underline;
+}
+

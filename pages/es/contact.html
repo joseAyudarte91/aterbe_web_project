@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="Reserva ahora en la casa rural Aterbe. Contacta con nosotros por teléfono o mediante el siguiente formulario." />
+    <title>Casa Rural Aterbe - Contacto</title>
+		<link rel="stylesheet" href="../../bower_components/foundation/css/normalize.css" />
+    <link rel="stylesheet" href="../../stylesheets/app.min.css" />
+    <script src="../../js/commons/modernizr.custom.min.js"></script>
+  </head>
+  <body>
+    <div id="topbar_bg_extended"></div>
+    <!-- Navigation -->
+    <div class="contain-to-grid">
+			<nav class="top-bar" data-topbar>
+				<ul class="title-area" id="topbar_title_area">
+					<!-- Title Area -->
+          <li class="name">
+						<h1>
+							<a id="topbar_title" href="index.html" title="Logo de la casa rural Aterbe"></a>
+            </h1>
+          </li>
+          <li class="toggle-topbar menu-icon"><a href="#" rel="nofollow" title="Despliega el menú principal"><span>menu</span></a></li>
+        </ul>
+ 
+        <section class="top-bar-section">
+
+					<!-- Right Nav (main) Section -->
+
+          <ul class="right" id="topNavContent">
+						<li class="divider"></li>
+						<li><a class="topbarLink" href="index.html" title="Enlance al inicio" id="indexLink">Inicio</a></li>
+            <li class="divider"></li>
+            <li><a class="topbarLink" href="rooms.html" title="Enlace a la sección Habitaciones" id="roomsLink">Habitaciones</a></li>
+            <li class="divider"></li>
+						<li><a class="topbarLink" href="gallery.html" title="Enlace a la sección Galería" id="galleryLink">Galería</a></li>
+            <li class="divider"></li>
+						<li><a class="topbarLink" href="services.html" title="Enlace a la sección Servicios" id="servicesLink">Servicios</a></li>
+            <li class="divider"></li>
+						<li><a class="topbarLink" href="location.html" title="Enlace a la sección Entorno" id="locationLink">Entorno</a></li>
+            <li class="divider"></li>
+						<li><a class="topbarLink" href="find_us.html" title="Enlace a la sección Como llegar" id="find_usLink">Como llegar</a></li>
+            <li class="divider"></li>
+						<li class="active"><a class="topbarLink" href="contact.html" title="Enlace a la sección Contacto" id="contactLink">Contacto</a></li>
+          </ul>
+
+        </section>
+
+      </nav>
+    </div>
+    <!-- End Top Bar -->
+		
+		<!-- Content -->
+		<div class="row section_margin">
+			<div class="large-12 columns">
+				<div class="row">
+					<!-- Title section -->
+					<div class="large-12 columns sub_section_margins">
+						<h2 class="section_header_color">Contacto</h2>
+						<p>Puedes llamarnos al <span class="bold">943715037</span> o al <span class="bold">686554015</span>.<br>
+							Si deseas realizar una reserva o hacernos cualquier tipo de consulta, te rogamos rellenes el siguiente formulario:
+						</p>
+					</div>
+				</div>
+				<form action="../../contactFormProcessor.php" name="contactForm" method="post" data-abide>
+					<!-- Hidden fields used by FormMail -->
+					<input type="hidden" name="good_url" value="pages/es/success_form_sub.html">
+					<input type="hidden" name="bad_url" value="pages/es/errorInFormSub.html">
+					<input type="hidden" name="recipients" value="aterbemegmail.com">
+					<input type="hidden" name="subject" value="Contacto desde página web">
+					<input type="hidden" name="required" value="nameSurname:Introduce un nombre y apellidos,emailField:Introduce una dirección válida,commentField:El comentario es obligatorio">
+					<!-- Form content -->
+					<div class="row">
+						<div class="small-12 medium-9 large-5 columns">
+							<label for="nameSurname">Nombre y apellidos*</label>
+							<input type="text" id="nameSurname" name="nameSurname" required pattern="[a-zA-Z]+">
+							<small class="error">Introduce un nombre y apellidos</small>
+						</div>
+					</div>
+					<div class="row">
+						<div class="small-12 medium-9 large-5 columns">
+							<label for="emailField">Correo electrónico*</label>
+							<input type="email" id="emailField" name="emailField" required>
+							<small class="error">Introduce una dirección electrónica válida</small>
+						</div>
+					</div>
+					<div class="row">
+						<div class="small-12 medium-5 large-2 columns">
+							<label for="phoneField">Teléfono</label>
+							<input type="tel" id="phoneField" name="phoneField">
+						</div>
+					</div>
+					<div class="row">
+						<div class="small-12 medium-9 large-6 columns">
+							<label for="commentField">Comentario</label>
+							<textarea maxlength="600" id="commentField" name="commentField" required></textarea>
+							<small class="error">El comentario es obligatorio</small>
+						</div>
+					</div>
+					<div class="row">
+						<div class="small-12 medium-9 large-6 columns sub_section_margins">
+							<input id="checkboxLOPD" name="checkboxLOPD" type="checkbox" required>
+							<label class="checkbox_label" for="checkboxLOPD">Acepto la Política de Privacidad y Protección de Datos**</label>
+							<small class="error">Casilla requerida</small>
+						</div>
+					</div>
+					<div class="row">
+						<div class="small-12 medium-8 large-5 columns">
+							<button type="submit" class="button radius">Enviar</button>
+							<button type="reset" class="button radius form_right_button">Restablecer</button>
+						</div>
+					</div>
+				</form>
+			</div>
+			<small class="large-12 columns">
+				<p class="LOPD_notice">*Campo obligatorio</br>**La recogida de datos se realizará de acuerdo con la Ley Orgánica 15/1999, de 13 de diciembre, de Protección de Datos de Carácter Personal con el objetivo y 
+				finalidad de cumplir con lo dispuesto en el artículo 9 de la Ley 6/1994, de 16 de marzo, de Ordenación Turística del País Vasco y el envío de
+				comunicaciones promocionales. Podrá ejercer los derechos de acceso, rectificación, oposición y/o cancelación, dirigiéndose por escrito
+				a la dirección: Caserío Zelaikoa S/N, Leintz-Gatzaga, 20530, Guipúzcoa, o bien solicitándolo mediante el mismo formulario.</p>
+			</small>
+		</div>
+		
+ 		<!-- Footer -->
+		<footer class="row">
+			<div class="large-12 columns"><hr>
+				<div class="row">
+					<div id="copyrightHolder" class="large-8 columns">
+						<p>Copyright © 2014 Aterbe | Aplicación diseñada y desarrollada por Jose Ayudarte bajo la licencia MIT</p>
+					</div>
+
+					<div class="large-6 small-12 columns">
+						<ul class="inline-list right">
+							<li><a class="index_footer_links" href="../eu/contact.html" title="Enlace a la versión en euskera de la página">Euskaraz</a></li>
+							<li><a class="index_footer_links" href="../en/contact.html" title="Enlace a la versión en inglés de la página">English</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- End Footer -->
+		<script>
+			// These variables are used to know if the next scripts will be loaded at the time of checking it in the JS manager
+			var jQueryLoaded;
+			var modernizrLoaded;
+		</script>
+		<script src="../../bower_components/jquery/jquery.min.js"></script>
+		<script src="../../js/contact/contact_JS_manager.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,53 @@
+// Settings of the responsive Cloud Carousel 1.0.5
+
+#carousel_wrapper {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+#cloud_carousel {
+  background: none;
+  overflow: scroll;
+  height: 280px; //It's best to use always a fixed height for the carousel
+}
+
+// This is the container for each carousel item's title text
+#title_carousel {
+  margin: 1.125em 0;
+  font-size: 1.25em;
+}
+
+// The big welcome title only visible in large screen sizes along carousel
+#welcome_title_large {
+  text-align: center;
+  margin: 1.125em 0 0 0;
+}
+
+// Buttons for moving the carousel
+#slider-left-but { 
+  display: block; 
+  width: 1.875em;
+  height: 1.875em;  
+  border: none;
+  margin-right: 0.625em; 
+  background-image: url(../images/templatemo_slider_left.png);
+  background-position: 0 0;
+  background-repeat: repeat-x;
+  background-size: auto 100%;
+}
+
+#slider-right-but { 
+  display: block; 
+  width: 1.875em;
+  height: 1.875em;  
+  border: none;
+  background-image: url(../images/templatemo_slider_right.png);
+  background-position: 0 0;
+  background-repeat: repeat-x;
+  background-size: auto 100%;
+}
+
+body{
+  overflow-x: hidden;
+}

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html class="no-js" lang="eu">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="Erreserbatu orain Aterbe Landa-etxean. Jarri harremanetan gurekin telefonoz edo hurrengo formularioaren bidez." />
+    <title>Aterbe Landa-etxea - Kontaktua</title>
+		<link rel="stylesheet" href="../../bower_components/foundation/css/normalize.css" />
+    <link rel="stylesheet" href="../../stylesheets/app.min.css" />
+    <script src="../../js/commons/modernizr.custom.min.js"></script>
+  </head>
+  <body>
+    <div id="topbar_bg_extended"></div>
+    <!-- Navigation -->
+    <div class="contain-to-grid">
+			<nav class="top-bar" data-topbar>
+				<ul class="title-area" id="topbar_title_area">
+					<!-- Title Area -->
+          <li class="name">
+						<h1>
+							<a id="topbar_title" href="index.html" title="Aterbe Landa-etxearen logoa"></a>
+            </h1>
+          </li>
+          <li class="toggle-topbar menu-icon"><a href="#" rel="nofollow" title="Zabaldu menu nagusia"><span>menu</span></a></li>
+        </ul>
+ 
+        <section class="top-bar-section">
+
+					<!-- Right Nav (main) Section -->
+
+          <ul class="right" id="topNavContent">
+						<li class="divider"></li>
+						<li><a class="topbarLink" href="index.html" title="Esteka Hasiera atalara" id="indexLink">Hasiera</a></li>
+            <li class="divider"></li>
+            <li><a class="topbarLink" href="rooms.html" title="Esteka Logelak atalara" id="roomsLink">Logelak</a></li>
+            <li class="divider"></li>
+						<li><a class="topbarLink" href="gallery.html" title="Esteka Argazkiak atalara" id="galleryLink">Argazkiak</a></li>
+            <li class="divider"></li>
+						<li><a class="topbarLink" href="services.html" title="Esteka Zerbitzuak atalara" id="servicesLink">Zerbitzuak</a></li>
+            <li class="divider"></li>
+						<li><a class="topbarLink" href="location.html" title="Esteka Ingurunea atalara" id="locationLink">Ingurunea</a></li>
+            <li class="divider"></li>
+						<li><a class="topbarLink" href="find_us.html" title="Esteka Nola heldu atalara" id="find_usLink">Nola heldu</a></li>
+            <li class="divider"></li>
+						<li class="active"><a class="topbarLink" href="contact.html" title="Esteka Kontaktua atalara" id="contactLink">Kontaktua</a></li>
+          </ul>
+
+        </section>
+
+      </nav>
+    </div>
+    <!-- End Top Bar -->
+		
+		<!-- Content -->
+		<div class="row section_margin">
+			<div class="large-12 columns">
+				<div class="row">
+					<!-- Title section -->
+					<div class="large-12 columns sub_section_margins">
+						<h2 class="section_header_color">Kontaktua</h2>
+						<p>Gurekin harremanetan jartzeko, <span class="bold">943715037</span> edo <span class="bold">686554015</span> telefono zenbakiei deitu ahal diguzu.<br>
+							Erreserbatu edo beste kontsultaren bat egin nahi izanez gero, bete ezazu hurrengo formularioa, mesedez:
+						</p>
+					</div>
+				</div>
+				<form action="../../contactFormProcessor.php" name="contactForm" method="post" data-abide>
+					<!-- Hidden fields used by FormMail -->
+					<input type="hidden" name="good_url" value="pages/eu/success_form_sub.html">
+					<input type="hidden" name="bad_url" value="pages/eu/error_in_form_sub.html">
+					<input type="hidden" name="recipients" value="aterbemegmail.com">
+					<input type="hidden" name="subject" value="Contacto desde página web">
+					<input type="hidden" name="required" value="nameSurname:Idatzi izena eta abizenak,emailField:Sartu baliozko helbide elektronikoa,commentField:Iruzkina derrigorrezkoa da">
+					<!-- Form content -->
+					<div class="row">
+						<div class="small-12 medium-9 large-5 columns">
+							<label for="nameSurname">Izen eta abizenak*</label>
+							<input type="text" id="nameSurname" name="nameSurname" required pattern="[a-zA-Z]+">
+							<small class="error">Izen eta abizenak derrigorrezkoak dira</small>
+						</div>
+					</div>
+					<div class="row">
+						<div class="small-12 medium-9 large-5 columns">
+							<label for="emailField">Helbide elektronikoa*</label>
+							<input type="email" id="emailField" name="emailField" required>
+							<small class="error">Sartu baliozko helbide elektronikoa</small>
+						</div>
+					</div>
+					<div class="row">
+						<div class="small-12 medium-5 large-2 columns">
+							<label for="phoneField">Telefono zenbakia</label>
+							<input type="tel" id="phoneField" name="phoneField">
+						</div>
+					</div>
+					<div class="row">
+						<div class="small-12 medium-9 large-6 columns">
+							<label for="commentField">Iruzkina</label>
+							<textarea maxlength="600" id="commentField" name="commentField" required></textarea>
+							<small class="error">Iruzkina derrigorrezkoa da</small>
+						</div>
+					</div>
+					<div class="row">
+						<div class="small-12 medium-9 large-6 columns sub_section_margins">
+							<input id="checkboxLOPD" name="checkboxLOPD" type="checkbox" required>
+							<label class="checkbox_label" for="checkboxLOPD">Pribatutasun Politika onartzen dut**</label>
+							<small class="error">Gure Pribatutasun Politika onartzea derrigorrezkoa da</small>
+						</div>
+					</div>
+					<div class="row">
+						<div class="small-12 medium-8 large-5 columns">
+							<button type="submit" class="button radius">Bidali</button>
+							<button type="reset" class="button radius form_right_button">Ezabatu</button>
+						</div>
+					</div>
+				</form>
+			</div>
+			<small class="large-12 columns">
+				<p class="LOPD_notice">*Bete beharreko atala</br>**Datuen bilketa, Izaera Pertsonaleko Datuen Babeserako, abenduak 13ko, 15/1999 Lege Organikoaren arabera egingo da, Euskadiko Turismo Antolamenduko,
+				 martxoak 16ko 6/1994 legearen 9. artikuluan azaldutakoa betetzeko eta sustapen jakinarazpenak bidaltzeko helburu eta xedearekin. Datuak eskuratu, zuzendu, 
+				 ezabatu eta aurkatzeko duzun eskubidea erabili dezakezu, ostatuko helbidera, Zelaikoa Baserria S/N, Leintz-Gatzaga, 20530, Gipuzkoa, edo goiko formulario berbera erabiliz.</p>
+			</small>
+		</div>
+		
+ 		<!-- Footer -->
+		<footer class="row">
+			<div class="large-12 columns"><hr>
+				<div class="row">
+					<div id="copyrightHolder" class="large-8 columns">
+						<p>Copyright &copy; 2014 Aterbe | Diseinua eta garapena Jose Ayudarte-ren eskutik, MIT lizentziaren babesean</p>
+					</div>
+
+					<div class="large-6 small-12 columns">
+						<ul class="inline-list right">
+							<li><a class="index_footer_links" href="../es/contact.html" title="Esteka gaztelerazko bertsiora">Castellano</a></li>
+							<li><a class="index_footer_links" href="../en/contact.html" title="Esteka ingelesezko bertsiora">English</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- End Footer -->
+		<script>
+			// These variables are used to know if the next scripts will be loaded at the time of checking it in the JS manager
+			var jQueryLoaded;
+			var modernizrLoaded;
+		</script>
+		<script src="../../bower_components/jquery/jquery.min.js"></script>
+		<script src="../../js/contact/contact_JS_manager.min.js"></script>
+  </body>
+</html>

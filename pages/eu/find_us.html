@@ -1,0 +1,123 @@
+<!doctype html>
+<html class="no-js" lang="eu">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="Gure landa-etxea aurkitu nahi baduzu, Google Maps erabili dezakezu zure kokapenatik edo nahi duzun lekutik ibilbidea kalkulatzeko." />
+    <title>Aterbe Landa-etxea - Nola heldu</title>
+		<link rel="stylesheet" href="../../bower_components/foundation/css/normalize.css" />
+    <link rel="stylesheet" href="../../stylesheets/app.min.css" />
+    <script src="../../js/commons/modernizr.custom.min.js"></script>
+  </head>
+  <body>
+    <div id="topbar_bg_extended"></div>
+    <!-- Navigation -->
+    <div class="contain-to-grid">
+			<nav class="top-bar" data-topbar>
+				<ul class="title-area" id="topbar_title_area">
+					<!-- Title Area -->
+          <li class="name">
+						<h1>
+							<a id="topbar_title" href="index.html" title="Aterbe Landa-etxearen logoa"></a>
+            </h1>
+          </li>
+          <li class="toggle-topbar menu-icon"><a href="#" rel="nofollow" title="Zabaldu menu nagusia"><span>menu</span></a></li>
+        </ul>
+ 
+        <section class="top-bar-section">
+
+					<!-- Right Nav (main) Section -->
+
+          <ul class="right" id="topNavContent">
+						<li class="divider"></li>
+						<li><a class="topbarLink" href="index.html" title="Esteka Hasiera atalara" id="indexLink">Hasiera</a></li>
+            <li class="divider"></li>
+            <li><a class="topbarLink" href="rooms.html" title="Esteka Logelak atalara" id="roomsLink">Logelak</a></li>
+            <li class="divider"></li>
+						<li><a class="topbarLink" href="gallery.html" title="Esteka Argazkiak atalara" id="galleryLink">Argazkiak</a></li>
+            <li class="divider"></li>
+						<li><a class="topbarLink" href="services.html" title="Esteka Zerbitzuak atalara" id="servicesLink">Zerbitzuak</a></li>
+            <li class="divider"></li>
+						<li><a class="topbarLink" href="location.html" title="Esteka Ingurunea atalara" id="locationLink">Ingurunea</a></li>
+            <li class="divider"></li>
+						<li class="active"><a class="topbarLink" href="find_us.html" title="Esteka Nola heldu atalara" id="find_usLink">Nola heldu</a></li>
+            <li class="divider"></li>
+						<li><a class="topbarLink" href="contact.html" title="Esteka Kontaktua atalara" id="contactLink">Kontaktua</a></li>
+          </ul>
+
+        </section>
+
+      </nav>
+    </div>
+    <!-- End Top Bar -->
+		
+		<!-- Content -->
+		<div class="row section_margin">
+			<div class="large-12 columns">
+				<div class="row">
+					<!-- Title section -->
+					<div class="large-12 columns sub_section_margins">
+						<h2 class="section_header_color">Nola heldu</h2>
+						<p>Gure landa-etxea aurkitu nahi izanez gero, hurrengo lerroetan aipatzen ditugun koordenatuak edo helbide postala erabil ditzakezu. Mapa interaktiboa ere kontsultatu dezakezu guregana iristeko nahi duzun lekutik.
+						</p>
+						<p><span class="bold">Koordenatuak (latitudea, longitudea):</span> 42.98381108189313, -2.5708769967117178.<br><span class="bold">Helbide postala:</span> Diseminados Barreiatua 20, Leintz-Gatzaga, 20530, Gipuzkoa.
+						</p>
+					</div>
+				</div>
+				<div class="row" id="dynamicPlaceHolder">
+					<div class="large-12 columns">
+						<div id="gMap_wrapper">
+							<img id="gmapsImg" src="http://maps.googleapis.com/maps/api/staticmap?center=diseminados+20,Leintz-Gatzaga&zoom=13&size=640x530&maptype=roadmap&markers=color:red%7Clabel:B%7C42.98381108189313,-2.5708769967117178&sensor=false&key=AIzaSyClTpvDfZr2xuy8gDQelUd_zR9jB5tkk_U" alt="Landa-etxearen mapa estatikoa">
+						</div>
+					</div>
+					<div id="gmapButtonSection" class="large-12 columns">
+						<div id="gmapButtonWrapper">
+							<a class="button expand" id="show_full_gmap_bt">Ikusi mapa interaktiboa</a>
+						</div>
+					</div>
+				</div>
+				<div class="row section_margin">
+					<div class="large-12 columns">
+						<h3>Argibide orokorrak</h3><hr>
+					</div>
+					<div class="large-12 columns">
+						<p><span class="bold">Gasteizetik:</span> Hartu N-240 errepidea Durango/Bilbo norantzan. Gero, desbideratu A-627 errepidetik, Bergarara doana. Bukatzeko, hartu GI-627 irteera Leintz-Gatzagaraino.</p>
+						<p><span class="bold">Donostiatik:</span> Hartu A8 (E5) autobidea, E(70), E(80) Bergarara doana. Gero, hartu GI-627 irteera Leintz-Gatzagaraino.</p>
+						<p><span class="bold">Bilbotik:</span> Hartu A8-A68 autobidea. Murgiara heldu ondoren, desbideratu N-622 errepidea hartzeko Gasteiz norantzan.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- Footer -->
+		<footer class="row">
+			<div class="large-12 columns"><hr>
+				<div class="row">
+					<div id="copyrightHolder" class="large-8 columns">
+						<p>Copyright &copy; 2014 Aterbe | Diseinua eta garapena Jose Ayudarte-ren eskutik, MIT lizentziaren babesean</p>
+					</div>
+
+					<div class="large-6 small-12 columns">
+						<ul class="inline-list right">
+							<li><a class="index_footer_links" href="../es/find_us.html" title="Esteka gaztelerazko bertsiora">Castellano</a></li>
+							<li><a class="index_footer_links" href="../en/find_us.html" title="Esteka ingelesezko bertsiora">English</a></li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+		</footer>
+		<!-- End Footer -->
+		
+		<!-- Search box element of google map js api -->
+		<input id="pac-input" class="controls custom_hide_overrider" type="text" placeholder="Search Box">
+		
+		<script>
+			// These variables are used to know if the next scripts will be loaded at the time of checking it in the JS manager
+			var jQueryLoaded;
+			var modernizrLoaded;
+		</script>
+		<script src="../../bower_components/jquery/jquery.min.js"></script>
+		<script src="../../js/find_us/find_us_JS_manager.min.js"></script>
+  </body>
+</html>

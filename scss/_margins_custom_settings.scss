@@ -1,0 +1,35 @@
+// Custom margin for room's hr divider, sub-section end part and images set in text flow
+.gallery_wrapper, .sub_section_margins, .text_img {
+  margin-bottom: 16px; // Fallback for old browsers
+  margin-bottom: 1rem;
+}
+
+.extra_margin_bottom {
+  margin-bottom: 2em;
+}
+
+// Custom margins for h4 rooms section's header and images of "location" section
+.top_section_header, .img_top_margin_justifier {
+  margin-top: 19.2px; // Fallback for old browsers
+  margin-top: 1.2rem;
+}
+
+//Custom top-margin for buttons elements
+#gMap_img_dynamic_wrapper, #map-canvas, #directions-panel {
+  margin-bottom: 8px; // Fallback for old browsers
+  margin-bottom: 0.5rem;
+}
+
+.section_margin {
+  margin-top: 22.4px; // Fallback for old browsers
+  margin-top: 1.4rem !important;
+}
+
+.form_right_button {
+  margin-left: 16px; // Fallback for old browsers
+  margin-left: 1rem;
+}
+
+.left_margin_resetter {
+  margin-left: 0 !important;
+} 

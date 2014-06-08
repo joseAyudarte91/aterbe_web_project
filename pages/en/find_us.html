@@ -1,0 +1,123 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="You can find our rural house using Google Maps, as well as the route to reach us from your current position or the place you want." />
+    <title>Aterbe Rural House - Find Us</title>
+		<link rel="stylesheet" href="../../bower_components/foundation/css/normalize.css" />
+    <link rel="stylesheet" href="../../stylesheets/app.min.css" />
+    <script src="../../js/commons/modernizr.custom.min.js"></script>
+  </head>
+  <body>
+    <div id="topbar_bg_extended"></div>
+    <!-- Navigation -->
+    <div class="contain-to-grid">
+			<nav class="top-bar" data-topbar>
+				<ul class="title-area" id="topbar_title_area">
+					<!-- Title Area -->
+          <li class="name">
+						<h1>
+							<a id="topbar_title" href="index.html" title="Logo of Aterbe Rural House"></a>
+            </h1>
+          </li>
+          <li class="toggle-topbar menu-icon"><a href="#" rel="nofollow" title="Expand the main menu"><span>menu</span></a></li>
+        </ul>
+ 
+        <section class="top-bar-section">
+
+					<!-- Right Nav (main) Section -->
+
+          <ul class="right" id="topNavContent">
+						<li class="divider"></li>
+						<li><a class="topbarLink" href="index.html" title="Link to Home" id="indexLink">Home</a></li>
+						<li class="divider"></li>
+						<li><a class="topbarLink" href="rooms.html" title="Link to Rooms section" id="roomsLink">Rooms</a></li>
+						<li class="divider"></li>
+						<li><a class="topbarLink" href="gallery.html" title="Link to Gallery section" id="galleryLink">Gallery</a></li>
+						<li class="divider"></li>
+						<li><a class="topbarLink" href="services.html" title="Link to Services section" id="servicesLink">Services</a></li>
+						<li class="divider"></li>
+						<li><a class="topbarLink" href="location.html" title="Link to Environment section" id="locationLink">Environment</a></li>
+						<li class="divider"></li>
+						<li class="active"><a class="topbarLink" href="find_us.html" title="Link to Find Us section" id="find_usLink">Find us</a></li>
+						<li class="divider"></li>
+						<li><a class="topbarLink" href="contact.html" title="Link to Contact section" id="contactLink">Contact</a></li>
+          </ul>
+
+        </section>
+
+      </nav>
+    </div>
+    <!-- End Top Bar -->
+		
+		<!-- Content -->
+		<div class="row section_margin">
+			<div class="large-12 columns">
+				<div class="row">
+					<!-- Title section -->
+					<div class="large-12 columns sub_section_margins">
+						<h2 class="section_header_color">Find us</h2>
+						<p>To find our location you can search it by using the postal address or the coordinates that are detailed next. You can also query the interactive map to find the route to reach us from the place you want.
+						</p>
+						<p><span class="bold">Coordinates (latitude, longitude):</span> 42.98381108189313, -2.5708769967117178.<br><span class="bold">Postal Address:</span> Diseminados Barreiatua 20, Leintz-Gatzaga, 20530, Guipúzcoa
+						</p>
+					</div>
+				</div>
+				<div class="row" id="dynamicPlaceHolder">
+					<div class="large-12 columns">
+						<div id="gMap_wrapper">
+							<img id="gmapsImg" div="gmap_Wrapper" src="http://maps.googleapis.com/maps/api/staticmap?center=diseminados+20,Leintz-Gatzaga&zoom=13&size=640x530&maptype=roadmap&markers=color:red%7Clabel:B%7C42.98381108189313,-2.5708769967117178&sensor=false&key=AIzaSyClTpvDfZr2xuy8gDQelUd_zR9jB5tkk_U" alt="Static location map">
+						</div>
+					</div>
+					<div id="gmapButtonSection" class="large-12 columns">
+						<div id="gmapButtonWrapper">
+							<a class="button expand" id="show_full_gmap_bt">See the interactive map</a>
+						</div>
+					</div>
+				</div>
+				<div class="row section_margin">
+					<div class="large-12 columns">
+						<h3>General indications</h3><hr>
+					</div>
+					<div class="large-12 columns">
+						<p><span class="bold">From Vitoria:</span> take N-240 road to Durango/Bilbao. Then go through the A-627 to Bergara. Finally, take the GI-627 exit to Leintz-Gatzaga.</p>
+						<p><span class="bold">From San Sebastián:</span> take the highway A8 (E5), E(70), E(80) to Bergara. Finally take the GI-627 exit to Leintz-Gatzaga.</p>
+						<p><span class="bold">From Bilbao:</span> take the highway A8-A68. When you reach Murgia, turn to N-622 road to Vitoria.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- Footer -->
+		<footer class="row">
+			<div class="large-12 columns"><hr>
+				<div class="row">
+					<div id="copyrightHolder" class="large-8 columns">
+						<p>Copyright © 2014 Aterbe | Designed and developed by Jose Ayudarte under the MIT license</p>
+					</div>
+
+					<div class="large-6 small-12 columns">
+						<ul class="inline-list right">
+							<li><a class="index_footer_links" href="../eu/find_us.html" title="Link to the basque translated version of the page">Euskaraz</a></li>
+							<li><a class="index_footer_links" href="../es/find_us.html" title="Link to the spanish version of the page">Castellano</a></li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+		</footer>
+		<!-- End Footer -->
+		
+		<!-- Search box element of google map js api -->
+		<input id="pac-input" class="controls custom_hide_overrider" type="text" placeholder="Search Box">
+		
+		<script>
+			// These variables are used to know if the next scripts will be loaded at the time of checking it in the JS manager
+			var jQueryLoaded;
+			var modernizrLoaded;
+		</script>
+		<script src="../../bower_components/jquery/jquery.min.js"></script>
+		<script src="../../js/find_us/find_us_JS_manager.min.js"></script>
+  </body>
+</html>

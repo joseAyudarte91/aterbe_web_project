@@ -1,0 +1,228 @@
+<!doctype html>
+<html class="no-js" lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="Visualiza la galería de fotos de nuestra casa rural, Aterbe. La hemos dividido en varias secciones: Habitaciones, Sala común, Porche, 
+		Jardín, Zona de spa, Entorno y Fachada." />
+    <title>Casa Rural Aterbe - Galería de fotos</title>
+		<link rel="stylesheet" href="../../bower_components/foundation/css/normalize.css" />
+    <link rel="stylesheet" href="../../stylesheets/app.min.css" />
+    <link rel="stylesheet" href="../../bower_components/Zoomer/jquery.fs.zoomer.css" media="all"/>
+    <script src="../../js/commons/modernizr.custom.min.js"></script>
+  </head>
+  <body>
+    <div class="reveal-modal" id="rooms_and_gallery_modal" data-reveal>
+			<h4 id="gallery_img_title" class="bold"></h4>
+			<div id="gallery_img_author_wrapper"></div>
+      <div id="modal_img_placeholder"></div>
+      <a rel="nofollow" class="close-reveal-modal">&#215;</a>
+    </div>
+    <div id="topbar_bg_extended"></div>
+    <!-- Navigation -->
+    <div class="contain-to-grid">
+			<nav class="top-bar" data-topbar>
+				<ul class="title-area" id="topbar_title_area">
+					<!-- Title Area -->
+          <li class="name">
+						<h1>
+							<a id="topbar_title" href="index.html" title="Logo de la casa rural Aterbe" rel="follow"></a>
+            </h1>
+          </li>
+          <li class="toggle-topbar menu-icon"><a href="#" rel="nofollow" title="Despliega el menú principal"><span>menu</span></a></li>
+        </ul>
+ 
+        <section class="top-bar-section">
+
+					<!-- Right Nav (main) Section -->
+
+          <ul class="right" id="topNavContent">
+						<li class="divider"></li>
+						<li><a class="topbarLink" href="index.html" title="Enlance al inicio" id="indexLink">Inicio</a></li>
+            <li class="divider"></li>
+            <li><a class="topbarLink" href="rooms.html" title="Enlace a la sección Habitaciones" id="roomsLink">Habitaciones</a></li>
+            <li class="divider"></li>
+						<li class="active"><a class="topbarLink" href="gallery.html" title="Enlace a la sección Galería" id="galleryLink">Galería</a></li>
+            <li class="divider"></li>
+						<li><a class="topbarLink" href="services.html" title="Enlace a la sección Servicios" id="servicesLink">Servicios</a></li>
+            <li class="divider"></li>
+						<li><a class="topbarLink" href="location.html" title="Enlace a la sección Entorno" id="locationLink">Entorno</a></li>
+            <li class="divider"></li>
+						<li><a class="topbarLink" href="find_us.html" title="Enlace a la sección Como llegar" id="find_usLink">Como llegar</a></li>
+            <li class="divider"></li>
+						<li><a class="topbarLink" href="contact.html" title="Enlace a la sección Contacto" id="contactLink">Contacto</a></li>
+          </ul>
+
+        </section>
+
+      </nav>
+    </div>
+    <!-- End Top Bar -->
+ 
+    <!-- Full content wrapper and the container (row and columns respectively). -->
+		<div class="row">
+			<!-- Placeholder div for retina media queries -->
+			<div class="large-12 columns">
+				<!-- Wrapper of text with global details about rates -->
+				<div class="row">
+					<div class="large-12 columns">
+						<h2 class="top_section_header">Galería de fotos</h2>
+						<p>Pincha sobre cada foto para ver las distintas secciones de la galería.<hr>
+					</div>
+					<!-- Wrapper of each sub-section -->
+					
+					<!-- Rooms -->
+					<div class="small-12 medium-6 large-6 columns gallery_wrapper extra_margin_bottom">
+						<!-- Container of each sub-section's content -->
+						<div class="row">
+							<div class="large-12 columns">
+								<h3 class="gallery_header bold third_color">Habitaciones</h3>
+							</div>
+							<div class="large-12 columns">
+								<a href="#" class="open_rooms_gallery_link" title="rooms" data-gallery-size="16" data-target-partial="rooms/aterbe-room" rel="icon">
+									<img title="rooms" rel="icon" src="../../images/gallery/small/rooms/aterbe-room-1-1.jpg" alt="Foto icono de la galería para la sección Habitaciones" 
+									class="open_rooms_gallery_link rounded_bordered" data-gallery-size="16" data-target-partial="rooms/aterbe-room">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="large-12 columns custom_hide gallery_divider"><hr></div>
+					
+					<!-- Living room  -->
+					<div class="small-12 medium-6 large-6 columns gallery_wrapper extra_margin_bottom">
+						<!-- Container of each sub-section's content -->
+						<div class="row">
+							<div class="large-12 columns">
+								<h3 class="gallery_header bold third_color">Sala común</h3>
+							</div>
+							<div class="large-12 columns">
+								<a href="#" class="open_rooms_gallery_link" title="living_room" rel="icon" data-gallery-size="6" data-target-partial="living_room/aterbe-living-room">
+									<img title="living_room" src="../../images/gallery/small/living_room/aterbe-living-room-1.jpg" alt="Foto icono de la galería para la sección Sala común" 
+									class="open_rooms_gallery_link rounded_bordered" data-gallery-size="6" data-target-partial="living_room/aterbe-living-room" rel="icon">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="large-12 columns"><hr></div>
+					
+					<!-- Porch -->
+					<div class="small-12 medium-6 large-6 columns gallery_wrapper extra_margin_bottom">
+						<!-- Container of each sub-section's content -->
+						<div class="row">
+							<div class="large-12 columns">
+								<h3 class="gallery_header bold third_color">Porche</h3>
+							</div>
+							<div class="large-12 columns">
+								<a href="#" class="open_rooms_gallery_link" title="porch" rel="icon" data-gallery-size="9" data-target-partial="porch/aterbe-porch">
+									<img title="porch" src="../../images/gallery/small/porch/aterbe-porch-1.jpg" alt="Foto icono de la galería para la sección Porche" 
+									class="open_rooms_gallery_link rounded_bordered" data-gallery-size="9" data-target-partial="porch/aterbe-porch" rel="icon">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="large-12 columns custom_hide gallery_divider"><hr></div>
+					
+					<!-- Spa Area -->
+					<div class="small-12 medium-6 large-6 columns gallery_wrapper extra_margin_bottom">
+						<!-- Container of each sub-section's content -->
+						<div class="row">
+							<div class="large-12 columns">
+								<h3 class="gallery_header bold third_color">Zona de Spa</h3>
+							</div>
+							<div class="large-12 columns">
+								<a href="#" class="open_rooms_gallery_link" title="spa_area" rel="icon" data-gallery-size="8" data-target-partial="spa_area/aterbe-spa-area">
+									<img title="spa_area" src="../../images/gallery/small/spa_area/aterbe-spa-area-1.jpg" alt="Foto icono de la galería para la sección Zona Spa" 
+									class="open_rooms_gallery_link rounded_bordered" data-gallery-size="8" data-target-partial="spa_area/aterbe-spa-area" rel="icon">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="large-12 columns"><hr></div>
+					
+					<!-- Garden -->
+					<div class="small-12 medium-6 large-6 columns gallery_wrapper extra_margin_bottom">
+						<!-- Container of each sub-section's content -->
+						<div class="row">
+							<div class="large-12 columns">
+								<h3 class="gallery_header bold third_color">Jardín</h3>
+							</div>
+							<div class="large-12 columns">
+								<a href="#" class="open_rooms_gallery_link" title="garden" rel="icon" data-gallery-size="5" data-target-partial="garden/aterbe-garden">
+									<img title="garden" src="../../images/gallery/small/garden/aterbe-garden-2.jpg" alt="Foto icono de la galería para la sección Jardín" 
+									class="open_rooms_gallery_link rounded_bordered" data-gallery-size="5" data-target-partial="garden/aterbe-garden" rel="icon">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="large-12 columns custom_hide gallery_divider"><hr></div>
+					
+					<!-- Facade -->
+					<div class="small-12 medium-6 large-6 columns gallery_wrapper extra_margin_bottom">
+						<!-- Container of each sub-section's content -->
+						<div class="row">
+							<div class="large-12 columns">
+								<h3 class="gallery_header bold third_color">Fachada</h3>
+							</div>
+							<div class="large-12 columns">
+								<a href="#" class="open_rooms_gallery_link" title="facade" rel="icon" data-gallery-size="4" data-target-partial="facade/aterbe-facade">
+									<img title="facade" src="../../images/gallery/small/facade/aterbe-facade-1.jpg" alt="Foto icono de la galería para la sección Fachada" 
+									class="open_rooms_gallery_link rounded_bordered" data-gallery-size="4" data-target-partial="facade/aterbe-facade" rel="icon">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="large-12 columns"><hr></div>
+					
+					<!-- Environment -->
+					<div class="small-12 medium-6 large-6 columns gallery_wrapper extra_margin_bottom custom_last_column">
+						<!-- Container of each sub-section's content -->
+						<div class="row">
+							<div class="large-12 columns">
+								<h3 class="gallery_header bold third_color">Entorno</h3>
+							</div>
+							<div class="large-12 columns">
+								<a href="#" class="open_rooms_gallery_link" title="environment" rel="icon" data-gallery-size="9" data-target-partial="environment/aterbe-environment">
+									<img title="environment" src="../../images/gallery/small/environment/aterbe-environment-1.jpg" alt="Foto icono de la galería para la sección Entorno" 
+									class="open_rooms_gallery_link rounded_bordered" data-gallery-size="9" data-target-partial="environment/aterbe-environment" rel="icon">
+								</a>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+     <!-- End Content -->
+		  
+ 
+     <!-- Footer -->
+ 
+     <footer class="row">
+       <div class="large-12 columns"><hr>
+         <div class="row">
+ 
+           <div id="copyrightHolder" class="large-8 columns">
+             <p>Copyright © 2014 Aterbe | Aplicación diseñada y desarrollada por Jose Ayudarte bajo la licencia MIT</p>
+           </div>
+ 
+           <div class="large-6 small-12 columns">
+             <ul class="inline-list right">
+               <li><a class="index_footer_links" href="../eu/gallery.html" title="Enlace a la versión en euskera de la página">Euskeraz</a></li>
+               <li><a class="index_footer_links" href="../en/gallery.html" title="Enlace a la versión en inglés de la página">English</a></li>
+             </ul>
+           </div>
+ 
+         </div>
+       </div>
+     </footer>
+ 
+     <!-- End Footer -->
+		<script>
+			// These variables are used to know if the next scripts will be loaded at the time of checking it in the JS manager
+			var jQueryLoaded;
+			var modernizrLoaded;
+		</script>
+		<script src="../../bower_components/jquery/jquery.min.js"></script>
+		<script src="../../js/gallery/gallery_JS_manager.min.js"></script>
+  </body>
+</html>

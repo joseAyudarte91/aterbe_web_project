@@ -1,0 +1,60 @@
+// Add a gradient background to the table classes of rooms section, the appropriate one for each
+#room_1_table_1, #room_1_table_2 {
+  background: #b37c22; // Fallback for old browsers
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#c37306', endColorstr='#b37c22'); /* for IE */
+  background: -ms-linear-gradient(top, #c37306, #b37c22); /* for IE10+ */
+  background: -webkit-gradient(linear, left top, left bottom, from(#c37306), to(#b37c22)); /* for webkit browsers */
+  background: -moz-linear-gradient(top, #c37306, #b37c22); /* for firefox 3.6+ */
+  background: -o-linear-gradient(top, #c37306, #b37c22); /* for Opera 11.1 to 12 */
+  background: linear-gradient(top, #c37306, #b37c22); /* Standard syntax */
+}
+
+#room_2_table_1, #room_2_table_2 {
+  background: #a15848; // Fallback for old browsers
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9e4918', endColorstr='#a15848'); /* for IE */
+  background: -ms-linear-gradient(top, #9e4918, #a15848); /* for IE10+ */
+  background: -webkit-gradient(linear, left top, left bottom, from(#9e4918), to(#a15848)); /* for webkit browsers */
+  background: -moz-linear-gradient(top, #9e4918, #a15848); /* for firefox 3.6+ */
+  background: -o-linear-gradient(top, #9e4918, #a15848); /* for Opera 11.1 to 12 */
+  background: linear-gradient(top, #9e4918, #a15848); /* Standard syntax */
+}
+
+#room_3_table_1, #room_3_table_2 {
+  background: #a0743a; // Fallback for old browsers
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#c38b31', endColorstr='#a0743a'); /* for IE */
+  background: -ms-linear-gradient(top, #c38b31, #a0743a); /* for IE10+ */
+  background: -webkit-gradient(linear, left top, left bottom, from(#c38b31), to(#a0743a)); /* for webkit browsers */
+  background: -moz-linear-gradient(top, #c38b31, #a0743a); /* for firefox 3.6+ */
+  background: -o-linear-gradient(top, #c38b31, #a0743a); /* for Opera 11.1 to 12 */
+  background: linear-gradient(top, #c38b31, #a0743a); /* Standard syntax */
+}
+
+#room_4_table_1, #room_4_table_2 {
+  background: #93b9dd; // Fallback for old browsers
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#c2d1dd', endColorstr='#93b9dd'); /* for IE <= 9 */
+  background: -ms-linear-gradient(top, #c2d1dd, #93b9dd); /* for IE10+ */
+  background: -webkit-gradient(linear, left top, left bottom, from(#c2d1dd), to(#93b9dd)); /* for webkit browsers */
+  background: -moz-linear-gradient(top, #c2d1dd, #93b9dd); /* for firefox 3.6+ */
+  background: -o-linear-gradient(top, #c2d1dd, #93b9dd); /* for Opera 11.1 to 12 */
+  background: linear-gradient(top, #c2d1dd, #93b9dd); /* Standard syntax */
+}
+
+// Bold weight font is set in table-cells for accesibility purposes
+table td {
+  font-weight: bold;
+}
+
+// Make the table rows to inherit the background in order to preserve color consistency
+table tr:nth-of-type(2n) {
+  background: inherit;
+}
+
+// This rule makes tables cover all available space of its parent wrapper
+table {
+  width: 100%;
+}
+
+// Main color font for table-cells
+table tr td {
+  color: black;
+}

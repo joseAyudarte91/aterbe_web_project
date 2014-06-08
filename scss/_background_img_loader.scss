@@ -1,0 +1,20 @@
+$bg_img_path: "../images/";
+
+@mixin load_bg_img($filename, $position:0 0, $repeat: repeat-x, $size: auto 100%) {
+    background: {
+        image: url(#{$bg_img_path}#{$filename});
+        position: $position;
+        repeat: $repeat;
+	size: $size;
+    }
+}
+
+//All the classes involved in the top-bar menu initial background
+.top-bar, #topbar_title_area, .top-bar-section ul li:not(.has-form) > a, .top-bar-section .dropdown li:not(.has-form) a{
+	@include load_bg_img('top-bar_menu_bg_img.jpg');
+}
+
+//All the classes involved in the top-bar menu background when something is active or hovered
+.top-bar-section ul li:not(.has-form):hover > a, .top-bar-section ul li:not(.has-form):active > a, .top-bar-section ul li.active:not(.has-form) > a, .top-bar-section ul li.active:not(.has-form) > a:hover, .top-bar-section li.hover:not(.has-form) > a:not(.button), .top-bar-section li:not(.has-form) a:not(.button):hover, no-js .top-bar-section ul li:not(.has-form):hover > a, .no-js .top-bar-section ul li:not(.has-form):active > a, .top-bar-section ul li:not(.has-form) > a:active, .top-bar-section ul li:not(.has-form):active > a:active, .no-js .top-bar-section ul li:not(.has-form) > a:active, .top-bar-section li:not(.has-form) a:not(.button):active, .no-js .top-bar-section ul li:not(.has-form):active > a:active{
+	@include load_bg_img('top-bar_bg_img_hover.jpg');
+}
