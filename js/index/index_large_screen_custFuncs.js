@@ -56,7 +56,7 @@ var createCloudCarousel = function(targetSize) {
 	else if(currentLanguage === "eu"){
 			// Titles in Basque
 			var big_title_carousel = "Ongietorri Aterbe Landa-etxera";
-			var title_carousel_1 = "Gosaldu apirikuan paisaiari begira";
+			var title_carousel_1 = "Gosaldu portxean paisaiari begira";
 			var title_carousel_2 = "Etorri Suite logelara, familiendako aproposena";
 			var title_carousel_3 = "Egongela minibar eta egurrezko berogailuarekin";
 			var title_carousel_4 = "Atsedena hartu gure sauna eta Turkiar Bainuan";
@@ -68,13 +68,13 @@ var createCloudCarousel = function(targetSize) {
 			var title_carousel_10 = "Spa saio pribatuak";
 			
 			// Alt attributes in spanish
-			var alt_carousel_1 = "Miniatura: Apirikua";
+			var alt_carousel_1 = "Miniatura: Portxea";
 			var alt_carousel_2 = "Miniatura: Suite logela";
 			var alt_carousel_3 = "Miniatura: Egongela";
 			var alt_carousel_4 = "Miniatura: Spa eremua";
 			var alt_carousel_5 = "Miniatura: Ingurumena";
 			var alt_carousel_6 = "Miniatura: Logela bikoitza";
-			var alt_carousel_7 = "Miniatura: Apirikuako hamakak";
+			var alt_carousel_7 = "Miniatura: Portxeko hamakak";
 			var alt_carousel_8 = "Miniatura: Etxeaurrea";
 			var alt_carousel_9 = "Miniatura: Landako urtegia";
 			var alt_carousel_10 = "Miniatura: Spa eremuko etzaulkiak";

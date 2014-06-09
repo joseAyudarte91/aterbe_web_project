@@ -123,9 +123,9 @@ var roomGalleryAttrArrayEU = {
 	"living_room_eu" : [{"title" : "Egongela", "author" : "Egilea: Iurgi Inda"}, {"title" : "Mini-bar", "author" : "Egilea: Iurgi Inda"}, {"title" : "Egongelaren egurrezko berogailua", "author" : "Egilea: Haritz Larrinaga"},
 									{"title" : "Jangela: ", "author" : "Egilea: Iurgi Inda"}, {"title" : "Egongelaren dekorazioa", "author" : "Egilea: Iurgi Inda"}, {"title" : "Egurrezko berogailua", "author" : "Egilea: Iurgi Inda"}
 								 ],
-	"porch_eu" : [{"title" : "Bistak apirikutik", "author" : "Egilea: Iurgi Inda"}, {"title" : "Apirikua", "author" : "Egilea: Iurgi Inda"}, {"title" : "Apirikuako besaulkiak ", "author" : "Egilea: Iurgi Inda"},
-							{"title" : "Apirikuako hamakak: ", "author" : "Egilea: Iurgi Inda"}, {"title" : "Gosaria apirikuan", "author" : "Egilea: Iurgi Inda"}, {"title" : "Kanpoko bistak", "author" : "Egilea: Jose Ayudarte"},
-							{"title" : "Apirikuaren mahaiak", "author" : "Egilea: Iurgi Inda"}, {"title" : "Kanpoko panoramikoa", "author" : "Egilea: Jose Ayudarte"}, {"title" : "Apirikuako xehetasunak", "author" : "Egilea: Iurgi Inda"}
+	"porch_eu" : [{"title" : "Bistak portxetik", "author" : "Egilea: Iurgi Inda"}, {"title" : "Portxea", "author" : "Egilea: Iurgi Inda"}, {"title" : "Portxeko besaulkiak ", "author" : "Egilea: Iurgi Inda"},
+							{"title" : "Portxeko hamakak: ", "author" : "Egilea: Iurgi Inda"}, {"title" : "Gosaria portxean", "author" : "Egilea: Iurgi Inda"}, {"title" : "Kanpoko bistak", "author" : "Egilea: Jose Ayudarte"},
+							{"title" : "Portxeko mahaiak", "author" : "Egilea: Iurgi Inda"}, {"title" : "Kanpoko panoramikoa", "author" : "Egilea: Jose Ayudarte"}, {"title" : "Portxeko xehetasunak", "author" : "Egilea: Iurgi Inda"}
 						 ],
 	"spa_area_eu" : [{"title" : "Turkiar Bainua eta sauna", "author" : "Egilea: Iurgi Inda"}, {"title" : "Spa eremuko etzaulkiak", "author" : "Egilea: Iurgi Inda"}, {"title" : "Spa eremua", "author" : "Egilea: Iurgi Inda"},
 								{"title" : "Spa eremuko komuna: ", "author" : "Egilea: Iurgi Inda"}, {"title" : "Sauna eta Turkiar Bainua", "author" : "Egilea: Iurgi Inda"}, {"title" : "Masajeendako gela", "author" : "Egilea: Iurgi Inda"},

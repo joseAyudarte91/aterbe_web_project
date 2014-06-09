@@ -786,3 +786,6 @@ if (typeof define !== 'undefined' && define.amd) {
 } else {
 	window.FastClick = FastClick;
 }
+
+// This variable is used to define at the end of the script that FastClick has been loaded. It helps to avoid race conditions
+fastClickLoaded = true;

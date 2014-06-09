@@ -86,8 +86,8 @@ var createOrbitHeader = function() {
 	
 	var orbit_img1_title_en = "The porch";
 	var orbit_img1_alt_en = "Image 1 from slider: The Porch";
-	var orbit_img1_title_eu = "Apirikua";
-	var orbit_img1_alt_eu = "Slider-eko 1. argazkia: Apirikua";
+	var orbit_img1_title_eu = "Portxea";
+	var orbit_img1_alt_eu = "Slider-eko 1. argazkia: Portxea";
 	
 	var orbit_img2_title_en = "The Suite";
 	var orbit_img2_alt_en = "Image 2 from slider: The Suite";
