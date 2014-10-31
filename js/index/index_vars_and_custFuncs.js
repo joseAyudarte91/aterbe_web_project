@@ -231,9 +231,6 @@ var changeIndexHeadersFromSmallToBig = function() {
 	if(typeof index_offer_2_content === "undefined")
 		index_offer_2_content = $("#small_offer_2_index_header").html();
 		
-	if(typeof index_offer_3_content === "undefined")
-		index_offer_3_content = $("#small_offer_3_index_header").html();
-		
 	if(typeof index_offers_link_h5_content === "undefined")
 		index_offers_link_content = $("#small_offers_link_index_header").html();
 		
@@ -243,7 +240,6 @@ var changeIndexHeadersFromSmallToBig = function() {
 	var index_offers_h3 = "<h3 id='index_offers_h3'>" + index_offers_content + "</h3>";
 	var index_offer_1_h4 = "<h4 id='index_offer_1_h4'>" + index_offer_1_content + "</h4>";
 	var index_offer_2_h4 = "<h4 id='index_offer_2_h4'>" + index_offer_2_content + "</h4>";
-	var index_offer_3_h4 = "<h4 id='index_offer_3_h4'>" + index_offer_3_content + "</h4>";
 	var index_offers_link_h5 = "<h5 id='index_offers_link_h5'><a href='offers.html'>" + index_offers_link_content + "</a></h5>";
 	
 	// Make the replacement
@@ -252,7 +248,6 @@ var changeIndexHeadersFromSmallToBig = function() {
 	$("#small_offers_index_header").replaceWith(index_offers_h3);
 	$("#small_offer_1_index_header").replaceWith(index_offer_1_h4);
 	$("#small_offer_2_index_header").replaceWith(index_offer_2_h4);
-	$("#small_offer_3_index_header").replaceWith(index_offer_3_h4);
 	$("#small_offers_link_index_header").replaceWith(index_offers_link_h5);
 };
 
@@ -278,9 +273,6 @@ var changeIndexHeadersFromBigToSmall = function() {
 	if(typeof index_offer_2_content === "undefined")
 		index_offer_2_content = $("#index_offer_2_h4").html();
 		
-	if(typeof index_offer_3_content === "undefined")
-		index_offer_3_content = $("#index_offer_3_h4").html();
-		
 	if(typeof index_offers_link_content === "undefined")
 		index_offers_link_content = $("#index_offers_link_h5").html();
 		
@@ -290,7 +282,6 @@ var changeIndexHeadersFromBigToSmall = function() {
 	var small_offers_index_header = "<h2 id='small_offers_index_header' class='h2_small_size'>" + index_offers_content + "</h2>";
 	var small_offer_1_index_header = "<h3 id='small_offer_1_index_header' class='h3_small_size'>" + index_offer_1_content + "</h3>";
 	var small_offer_2_index_header = "<h3 id='small_offer_2_index_header' class='h3_small_size'>" + index_offer_2_content + "</h3>";
-	var small_offer_3_index_header = "<h3 id='small_offer_3_index_header' class='h3_small_size'>" + index_offer_3_content + "</h3>";
 	var small_offers_link_index_header = "<h4 id='small_offers_link_index_header' class='h4_small_size'><a href='offers.html'>" + index_offers_link_content + "</a></h4>";
 	
 	// Make the replacement
@@ -299,7 +290,6 @@ var changeIndexHeadersFromBigToSmall = function() {
 	$("#index_offers_h3").replaceWith(small_offers_index_header);
 	$("#index_offer_1_h4").replaceWith(small_offer_1_index_header);
 	$("#index_offer_2_h4").replaceWith(small_offer_2_index_header);
-	$("#index_offer_3_h4").replaceWith(small_offer_3_index_header);
 	$("#index_offers_link_h5").replaceWith(small_offers_link_index_header);
 };
 
