@@ -58,8 +58,8 @@ var roomGalleryAttrArrayES = {
 										{"title" : "La Habitación 4", "author" : "Foto de: Iurgi Inda"}, {"title" : "Baño de Hab. 4", "author" : "Foto de: Iurgi Inda"}, {"title" : "Ventana de Hab. 4", "author" : "Foto de: Iurgi Inda"},
 										{"title" : "Detalle de Hab. 4", "author" : "Foto de: Iurgi Inda"}
 									 ],
-	"living_room_es" : [{"title" : "Sala común", "author" : "Foto de: Iurgi Inda"}, {"title" : "Mini-bar", "author" : "Foto de: Iurgi Inda"}, {"title" : "Estufa de leña", "author" : "Foto de: Haritz Larrinaga"},
-									{"title" : "Comedor", "author" : "Foto de: Iurgi Inda"}, {"title" : "Decoración de salón", "author" : "Foto de: Iurgi Inda"}, {"title" : "Estufa de leña", "author" : "Foto de: Iurgi Inda"}
+	"living_room_es" : [{"title" : "Sala común", "author" : "Foto de: Iurgi Inda"}, {"title" : "Mini-bar", "author" : "Foto de: Iurgi Inda"},
+									{"title" : "Comedor", "author" : "Foto de: Iurgi Inda"}, {"title" : "Decoración de salón", "author" : "Foto de: Iurgi Inda"}
 								 ],
 	"porch_es" : [{"title" : "Vistas desde porche", "author" : "Foto de: Iurgi Inda"}, {"title" : "El porche", "author" : "Foto de: Iurgi Inda"}, {"title" : "Butacas del porche", "author" : "Foto de: Iurgi Inda"},
 							{"title" : "Hamacas del porche", "author" : "Foto de: Iurgi Inda"}, {"title" : "Desayuno en el porche", "author" : "Foto de: Iurgi Inda"}, {"title" : "Vista exterior", "author" : "Foto de: Jose Ayudarte"},
@@ -89,8 +89,8 @@ var roomGalleryAttrArrayEN = {
 										{"title" : "The Room 4", "author" : "Author: Iurgi Inda"}, {"title" : "Bathroom of the Room 4", "author" : "Author: Iurgi Inda"}, {"title" : "Window of the Room 4", "author" : "Author: Iurgi Inda"},
 										{"title" : "Detail of the Room 4", "author" : "Author: Iurgi Inda"}
 						],
-	"living_room_en" : [{"title" : "The living room", "author" : "Author: Iurgi Inda"}, {"title" : "The mini-bar", "author" : "Author: Iurgi Inda"}, {"title" : "The wood stove of the living room", "author" : "Author: Haritz Larrinaga"},
-										{"title" : "The dining room: ", "author" : "Author: Iurgi Inda"}, {"title" : "A decoration", "author" : "Author: Iurgi Inda"}, {"title" : "The wood stove", "author" : "Author: Iurgi Inda"}
+	"living_room_en" : [{"title" : "The living room", "author" : "Author: Iurgi Inda"}, {"title" : "The mini-bar", "author" : "Author: Iurgi Inda"},
+										{"title" : "The dining room: ", "author" : "Author: Iurgi Inda"}, {"title" : "A decoration", "author" : "Author: Iurgi Inda"}
 									],
 	"porch_en" : [{"title" : "Views from the porch", "author" : "Author: Iurgi Inda"}, {"title" : "The porch", "author" : "Author: Iurgi Inda"}, {"title" : "Armchairs of the porch", "author" : "Author: Iurgi Inda"},
 							{"title" : "Hammocks of the porch: ", "author" : "Author: Iurgi Inda"}, {"title" : "Breakfast in the porch", "author" : "Author: Iurgi Inda"}, {"title" : "Outside view", "author" : "Author: Jose Ayudarte"},
@@ -120,8 +120,8 @@ var roomGalleryAttrArrayEU = {
 										{"title" : "Logela 4", "author" : "Egilea: Iurgi Inda"}, {"title" : "Logela 4ko komuna", "author" : "Egilea: Iurgi Inda"}, {"title" : "Logela 4ko leihoa", "author" : "Egilea: Iurgi Inda"},
 										{"title" : "Logela 4ko xehetasunak", "author" : "Egilea: Iurgi Inda"}
 									],
-	"living_room_eu" : [{"title" : "Egongela", "author" : "Egilea: Iurgi Inda"}, {"title" : "Mini-bar", "author" : "Egilea: Iurgi Inda"}, {"title" : "Egongelaren egurrezko berogailua", "author" : "Egilea: Haritz Larrinaga"},
-									{"title" : "Jangela: ", "author" : "Egilea: Iurgi Inda"}, {"title" : "Egongelaren dekorazioa", "author" : "Egilea: Iurgi Inda"}, {"title" : "Egurrezko berogailua", "author" : "Egilea: Iurgi Inda"}
+	"living_room_eu" : [{"title" : "Egongela", "author" : "Egilea: Iurgi Inda"}, {"title" : "Mini-bar", "author" : "Egilea: Iurgi Inda"},
+									{"title" : "Jangela: ", "author" : "Egilea: Iurgi Inda"}, {"title" : "Egongelaren dekorazioa", "author" : "Egilea: Iurgi Inda"}
 								 ],
 	"porch_eu" : [{"title" : "Bistak portxetik", "author" : "Egilea: Iurgi Inda"}, {"title" : "Portxea", "author" : "Egilea: Iurgi Inda"}, {"title" : "Portxeko besaulkiak ", "author" : "Egilea: Iurgi Inda"},
 							{"title" : "Portxeko hamakak: ", "author" : "Egilea: Iurgi Inda"}, {"title" : "Gosaria portxean", "author" : "Egilea: Iurgi Inda"}, {"title" : "Kanpoko bistak", "author" : "Egilea: Jose Ayudarte"},
